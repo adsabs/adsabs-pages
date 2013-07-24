@@ -1,3 +1,8 @@
+---
+published: false
+foo: bar
+---
+
 ## Welcome to the adsabs-help wiki!
 
 From here you can navigate to:
