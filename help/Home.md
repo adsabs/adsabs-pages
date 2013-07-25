@@ -1,7 +1,3 @@
----
-published: true
-foo: bar
----
 
 ## Welcome to the adsabs-help wiki!
 
