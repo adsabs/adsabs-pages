@@ -1,6 +1,6 @@
 ## Welcome to ADS Labs! 
 
-The ADS team has been working hard on reinventing its services and interfaces to better support our community's research needs.  ADS Labs provides new interfaces built on the old tried-and-true **[[ADS Abstract Databases](http://adsabs.harvard.edu/ads_abstracts.html)**, so all of ADS's content is available through them.
+The ADS team has been working hard on reinventing its services and interfaces to better support our community's research needs.  ADS Labs provides new interfaces built on the old tried-and-true **[ADS Abstract Databases](http://adsabs.harvard.edu/ads_abstracts.html)**, so all of ADS's content is available through them.
 
 ADS Labs currently features three different interfaces that allow you to search, explore and visualize the contents of its 10 million bibliographic records and its 2.6 million full-text documents.
 
@@ -43,11 +43,11 @@ ADS Labs currently features three different interfaces that allow you to search,
 </html>
 
 Each interface provides slightly different functionality, and while we are working to consolidate all search capabilities in the Integrated Search we are still providing access to the two other interfaces for the time being.  Some of the new features you will find include:
-//new ranking options// and support for //advanced searches//;
-//filtering of results// based on a variety of criteria;
-//interactive visualizations// of paper and author networks;
-//recommendations// and //notifications//; 
-and //impact evaluation// via bibliometric summaries.
+*new ranking options* and support for *advanced searches*;
+*filtering of results* based on a variety of criteria;
+*interactive visualizations* of paper and author networks;
+*recommendations* and *notifications*; 
+and *impact evaluation* via bibliometric summaries.
 
 Please note that some of the features we are integrating in ADS Labs
 can also be accessed from 
