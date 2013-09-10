@@ -8,7 +8,7 @@ A list of papers that match your initial query will be displayed and you will be
 
 Once you have a results list from an initial query you can use our filters to further refine your search.  Currently we have the following options available:
 
-  * Top papers
+  * Top papers--here you can chose to limit your search to the first xxx results (where you chose the number xxx either by typing in the number or using the scroll bar below.  Hitting apply activates this option.  You may use reset to the original results by using the reset button.
   * Authors
   * Database
   * Keywords
