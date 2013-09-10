@@ -16,7 +16,7 @@ Preset search options that are available for you include: <ul>
   The <B>"+ options"</B> button allows you to <ul> 
   <li>specify a publication date range to search in between (if you do not know the month you may use "00".)  
   <li>select a database:  astronomy, physics, general or all
-  <li>disable fulltext (searches only the metadata and not the entire article)
+  <li>disable fulltext (searches only article metadata and not the entire article)
   <li> select articles only
   </ul>
   
