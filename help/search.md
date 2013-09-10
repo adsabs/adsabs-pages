@@ -23,5 +23,13 @@ Preset search options that are available for you include: <ul>
   
   The search settings option allows you to select how many results to return (200 is the default)
   
+  <B>ADVANCED SEARCHES from the one box search</B>
+  
+  Simply click on one of the three options below and type your query into the brackets:
+  <ul>
+  <li> <B>Trending</B> returns the list of documents most read by all users who read recent papers on the topic being researched; these are papers currently being read by people interested in this field.
+  <li> <B>Useful</B>
+  <li> <B>Instructive</B> returns the list of documents citing the most cited papers on the topic being researched; these are papers containing the most extensive reviews of the field.
+  
   
   
