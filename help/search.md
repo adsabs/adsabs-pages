@@ -28,7 +28,7 @@ Preset search options that are available for you include: <ul>
   Simply click on one of the three options below and type your query into the brackets:
   <ul>
   <li> <B>Trending</B> returns the list of documents most read by all users who read recent papers on the topic being researched; these are papers currently being read by people interested in this field.
-  <li> <B>Useful</B>
+  <li> <B>Useful</B> returns the list of documents most cited by the most relevant papers on the topic being researched; these are papers most often cited by experts in the field.
   <li> <B>Instructive</B> returns the list of documents citing the most cited papers on the topic being researched; these are papers containing the most extensive reviews of the field.
   
   
