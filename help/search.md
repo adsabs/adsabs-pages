@@ -31,10 +31,7 @@ Preset search options that are available for you include: <ul>
   <li> <B>Useful</B> returns the list of documents most cited by the most relevant papers on the topic being researched; these are papers most often cited by experts in the field.
   <li> <B>Instructive</B> returns the list of documents citing the most cited papers on the topic being researched; these are papers containing the most extensive reviews of the field.
   
-  new list
-  *candy
-  *gum
-  *water
+  
   
   
   
