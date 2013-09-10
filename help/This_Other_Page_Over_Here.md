@@ -1,7 +1,7 @@
----
+<!--
 published: true
 foo: bar
----
+-->
 
 This is a totally different page of documentation.
 
