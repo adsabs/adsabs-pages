@@ -19,4 +19,3 @@ Once you have a results list from an initial query you can use our filters to fu
   * *Data*--here you may chose to include or exclude results that contain data in various archives (e.g. CDS, HEASARC, CXO, NED)
   * *Vizier Tables*--here you may chose to include or exclude articles that have Vizier Tables
   * *Publication Year*--here you may chose to limit your results to a specified time period by typing in the year range or using the provided slide bar
-  
