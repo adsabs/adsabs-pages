@@ -23,7 +23,7 @@ Preset search options that are available for you include: <ul>
   
   The search settings option allows you to select how many results to return (200 is the default)
   
-  <B>ADVANCED SEARCHES from the one box search</B>
+  <B>STREAMLINED ADVANCED SEARCHES</B>
   
   Simply click on one of the three options below and type your query into the brackets:
   <ul>
