@@ -7,7 +7,7 @@ Preset search options that are available for you include: <ul>
   <li><B>First Author</B> format: lastname, firstname middleinitial
   <li><B>Title</B> searches text within title field
   <li><B>Year</B> format YYYY or range YYYY-YYYY
-  <li><B>Publication</B> Use journal abbreviations from our [bibstem list] (abs_doc/journal.abbr.html)
+  <li><B>Publication</B> Use journal abbreviations from our [bibstem list] (adsabs.harvard.edu/abs_doc/journal.abbr.html)
   <li><B>Fulltext</B> searches within the fulltext of articles
   </ul>
   
