@@ -2,7 +2,7 @@
 
    *What is the ADS?
    
-   *How do I [search](adsabs-pages/help/search.md)?
+   *How do I [search](search.md)?
    
    *What do the results mean?
    
