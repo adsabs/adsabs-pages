@@ -1,10 +1,10 @@
-**Results list**
+#**Results list**#
 
 A list of papers that match your initial query will be displayed and you will be able to further refine your query by using our "Limit Your Search" options or to view additional information about the articles that were returned.
 
 Clicking on a   *>*   will detail your results for that filter.
 
-**Limit your search**
+##**Limit your search**##
 
 Once you have a results list from an initial query you can use our filters to further refine your search.  Please note that your results list will change each time you apply a limit.  Each limit appears above the top of the results list and can be undone simply by clicking on the *x* in each box (or clearing all filters but chosing "Clear all."  Currently we have the following options available:
 
@@ -19,3 +19,7 @@ Once you have a results list from an initial query you can use our filters to fu
   * *Data*--here you may chose to include or exclude results that contain data in various archives (e.g. CDS, HEASARC, CXO, NED)
   * *Vizier Tables*--here you may chose to include or exclude articles that have Vizier Tables
   * *Publication Year*--here you may chose to limit your results to a specified time period by typing in the year range or using the provided slide bar
+
+##**Understanding the Results**##
+
+
