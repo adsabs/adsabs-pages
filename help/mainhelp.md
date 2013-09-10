@@ -1,5 +1,4 @@
 
-
 ##ADS Help Layout 
 
 ###MAIN PAGE TOPICS
