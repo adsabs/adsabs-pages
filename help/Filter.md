@@ -78,7 +78,4 @@ Clicking on the bibcode of an individual article will bring you to a page showin
  * Co-reads of the article
  
  In addition you will find links to Full Text Sources and Data Products.   Also shown will be a list of Suggested Articles.  We also provide links to ADS private libraries, Twitter, Facebook, LinkedIn and Mendeley.
-Tabs above
-
-
 
