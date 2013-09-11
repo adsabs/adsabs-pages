@@ -28,7 +28,7 @@ Your results are ranked according to your query and filtering options that you h
 
 **sort**  You can also sort your results by date, by citation num or by popularity (all of these can be returned in ascending or descending order)
 
-##*Article Lists*##
+##**Article Lists**##
 The ADS utilizes bibliographic codes (bibcodes) to identify literature in our database.  Using a standard bibliographic format, as explained below, we can easily identify different articles and users can efficiently search for them.
 The bibliographic code is a 19 digit identifier which describes the journal article. The format was originally adopted by the SIMBAD and NED projects, and follows the syntax: 
 YYYYJJJJJVVVVMPPPPA where: 
@@ -47,7 +47,7 @@ YYYYJJJJJVVVVMPPPPA where:
 The fields are padded with periods (.) so that the code is always 19 characters long. The journal is left-justified within its 5 characters, and the volume and page are right-justified. New journal abbreviations should be unique, and follow existing naming conventions. As an example, the bibliographic code: 
 1992ApJ...400L...1W corresponds to the article: Astrophysical Journal Letters volume 400, page L1. 
 
-###*Available links*###
+###**Available links**###
 Following each bibcode is a list of letters which indicate what data are available for the article.  
 
  * A	 Abstract	 Full abstract of the article. (These abstracts come from different sources)
