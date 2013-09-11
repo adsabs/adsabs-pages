@@ -24,9 +24,9 @@ Once you have a results list from an initial query you can use our filters to fu
 
 Your results are ranked according to your query and filtering options that you have applied.
 
-##*export*## Working with the list you can select articles and export the resulting lists in various formats (e.g. to ADS Classic, Endnote, Bibtex or AAStex)
+**export** Working with the list you can select articles and export the resulting lists in various formats (e.g. to ADS Classic, Endnote, Bibtex or AAStex)
 
-##*sort*##  You can also sort your results by date, by citation num or by popularity (all of these can be returned in ascending or descending order)
+**sort**  You can also sort your results by date, by citation num or by popularity (all of these can be returned in ascending or descending order)
 
 ##*Article Lists*##
 The ADS utilizes bibliographic codes (bibcodes) to identify literature in our database.  Using a standard bibliographic format, as explained below, we can easily identify different articles and users can efficiently search for them.
