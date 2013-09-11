@@ -75,7 +75,7 @@ Following each bibcode is a list of letters which indicate what data are availab
 Clicking on the bibcode of an individual article will bring you to a page showing the abstract view for the chosen article including a DOI link, keywords and arXiv identifier. On this page you will find tab links to lists of:
  * References in the article
  * Citations to the article
- * Co-Reads of the article
+ * Co-Reads of the article (papers that have been read by people who read this article)
 
  In addition you will find links to Full Text Sources (Open Access resources are indicated by an open lock) and Data Products.   Also shown will be a list of Suggested Articles which are suggested based upon the information for the chosen article.  We also provide links to ADS private libraries, Twitter, Facebook, LinkedIn and Mendeley.
 
