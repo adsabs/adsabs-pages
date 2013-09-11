@@ -50,11 +50,11 @@ The fields are padded with periods (.) so that the code is always 19 characters 
 *Available links*
 Following each bibcode is a list of letters which indicate what data are available for the article.  
 
- *A	 Abstract	 Full abstract of the article. (These abstracts come from different sources)
- *C	 Citations	 A list of articles that cite the current article. (This list is not necessarily complete)
- *D	 On-line Data	 Links to on-line data at other data centers.
- *E	 Electronic Article	 Links to the on-line version of the article. These on-line versions are in HTML format for viewing on-screen, not for printing.
- *F	 Printable Article	 Links to on-line articles in PDF or Postscript format for printing.
+ * A	 Abstract	 Full abstract of the article. (These abstracts come from different sources)
+ * C	 Citations	 A list of articles that cite the current article. (This list is not necessarily complete)
+ * D	 On-line Data	 Links to on-line data at other data centers.
+ * E	 Electronic Article	 Links to the on-line version of the article. These on-line versions are in HTML format for viewing on-screen, not for printing.
+ * F	 Printable Article	 Links to on-line articles in PDF or Postscript format for printing.
  *G	 Gif Images	 Links to the images of scanned articles in the ADS Article Service.
  *H	 HEP/Spires Information	 Links to on-line articles at the HEP/Spires database.
  *I	 Author Comments	 Links to author supplied additional information (e.g. corrections, additional references, links to data, etc.)
