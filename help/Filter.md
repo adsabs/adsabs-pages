@@ -24,11 +24,11 @@ Once you have a results list from an initial query you can use our filters to fu
 
 Your results are ranked according to your query and filtering options that you have applied.
 
-###*export*### Working with the list you can select articles and export the resulting lists in various formats (e.g. to ADS Classic, Endnote, Bibtex or AAStex)
+##*export*## Working with the list you can select articles and export the resulting lists in various formats (e.g. to ADS Classic, Endnote, Bibtex or AAStex)
 
-###*sort*###  You can also sort your results by date, by citation num or by popularity (all of these can be returned in ascending or descending order)
+##*sort*##  You can also sort your results by date, by citation num or by popularity (all of these can be returned in ascending or descending order)
 
-###*Article Lists*###
+##*Article Lists*##
 The ADS utilizes bibliographic codes (bibcodes) to identify literature in our database.  Using a standard bibliographic format, as explained below, we can easily identify different articles and users can efficiently search for them.
 The bibliographic code is a 19 digit identifier which describes the journal article. The format was originally adopted by the SIMBAD and NED projects, and follows the syntax: 
 YYYYJJJJJVVVVMPPPPA where: 
@@ -41,8 +41,8 @@ YYYYJJJJJVVVVMPPPPA where:
     * L: Letter
     * P: Pink page
    * Q-Z: Unduplicating character for identical codes 
-  * PPPP: Page number. Note that for page numbers greater than 9999, the page number is continued in the m column. 
-  * A: The first letter of the last name of the first author. 
+ * PPPP: Page number. Note that for page numbers greater than 9999, the page number is continued in the m column. 
+ * A: The first letter of the last name of the first author. 
 
 The fields are padded with periods (.) so that the code is always 19 characters long. The journal is left-justified within its 5 characters, and the volume and page are right-justified. New journal abbreviations should be unique, and follow existing naming conventions. As an example, the bibliographic code: 
 1992ApJ...400L...1W corresponds to the article: Astrophysical Journal Letters volume 400, page L1. 
