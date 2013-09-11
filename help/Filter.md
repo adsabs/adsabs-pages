@@ -36,7 +36,3 @@ Your results are ranked according to your query and filtering options that you h
 
 ##**Individual article view**##
 
-
-
-
-
