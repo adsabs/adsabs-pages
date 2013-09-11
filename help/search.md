@@ -1,4 +1,4 @@
-<B>How to search the ADS:</B>
+<B>HOW TO SEARCH THE ADS:</B>
 
 Our new one box search strings together queries for you.
 
@@ -21,7 +21,7 @@ Preset search options that are available for you include: <ul>
   <li> select articles only
   </ul>
   
-  The search settings option allows you to select how many results to return (200 is the default)
+  The **search settings** option allows you to select how many results to return (200 is the default)
   
   <B>STREAMLINED ADVANCED SEARCHES</B>
   
