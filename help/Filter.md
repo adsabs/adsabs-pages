@@ -48,6 +48,7 @@ The fields are padded with periods (.) so that the code is always 19 characters 
 1992ApJ...400L...1W corresponds to the article: Astrophysical Journal Letters volume 400, page L1. 
 
 ###**Available links**###
+
 Following each bibcode is a list of letters which indicate what data are available for the article.  
 
  * A	 (Abstract)	 Full abstract of the article. (These abstracts come from different sources)
@@ -70,5 +71,14 @@ Following each bibcode is a list of letters which indicate what data are availab
 
 
 ##**Individual article view**##
+
+Clicking on the bibcode of an individual article will bring you to a page showing the abstract view for the chosen article including a DOI link. On this page you will find tab links to lists of:
+ *References in the article
+ *Citations to the article
+ *Co-reads of the article
+ 
+ In addition you will find links to Full Text Sources and Data Products.   Also shown will be a list of Suggested Articles.  We also provide links to ADS private libraries, Twitter, Facebook, LinkedIn and Mendeley.
+Tabs above
+
 
 
