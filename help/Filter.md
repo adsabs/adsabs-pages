@@ -45,6 +45,12 @@ Your results are ranked according to your query and filtering options that you h
 
 **sort**  You can also sort your results by date, by citation num or by popularity (all of these can be returned in ascending or descending order)
 
+##**Visualizing the results**##
+
+The *View* button allows you to visualize your results in various ways.
+
+   * **Author Network** allows you to illustrate author networks within ADS search results.  More information about the Author Network is available with the tool.   You can zoom, filter and search author info in this mode.
+
 ###**Available links**###
 
 Following each bibcode is a list of letters which indicate what data are available for the article.  
