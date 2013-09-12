@@ -1,4 +1,4 @@
-#**HOW TO SEARCH THE ADS**#
+###**HOW TO SEARCH THE ADS**###
 
 Our new one box search strings together queries for you.
 
@@ -22,7 +22,7 @@ Preset search options that are available for you include:
   
   The **search settings** option allows you to select how many results to return (200 is the default)
   
-##**STREAMLINED ADVANCED SEARCHES**##
+###**STREAMLINED ADVANCED SEARCHES**###
   
   Simply click on one of the three options below and type your query into the brackets:
 
