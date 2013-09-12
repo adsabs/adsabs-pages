@@ -49,7 +49,7 @@ Your results are ranked according to your query and filtering options that you h
 
 The *View* button allows you to visualize your results in various ways.
 
-   * **Author Network** allows you to illustrate author networks within ADS search results.  More information about the Author Network is available with the tool.   You can zoom, filter and search author info in this mode.
+   * **Author Network** allows you to illustrate author networks within ADS search results.  More information about how to use the Author Network is available with the tool.   You can zoom, filter and search author info in this mode and then apply these restrictions to your results list.
 
 ###**Available links**###
 
