@@ -18,7 +18,7 @@ Preset search options that are available for you include: <ul>
   <li>specify a publication date range to search in between (if you do not know the month you may use "00".)  
   <li>select a database:  astronomy, physics, general or all
   <li>disable fulltext (searches only article metadata and not the entire article)
-  <li> select articles only
+  <li> select articles only (this excludes documents like observing proposals, catalog descriptions, meeting abstracts and communications)
   </ul>
   
   The **search settings** option allows you to select how many results to return (200 is the default)
