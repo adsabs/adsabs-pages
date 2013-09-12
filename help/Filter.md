@@ -27,7 +27,7 @@ Once you have a results list from an initial query you can use our filters to fu
 Clicking on a **>** will detail your results for that filter.
 
 Clicking on any of the listed terms within a filter will automatically apply that result as a filter; if you want to choose more than one term within a specific filter you must first check the boxes next to the terms you want to choose and then choose the desired application ( **and**, **or** or **exclude**) from the **apply** box in that section.
-
+[**EXAMPLE**]
 
   * *Top papers*--here you can chose to limit your search to the first xxx results (where you chose the number xxx either by typing in the number or using the scroll bar.)  Hitting apply activates this option.  You may return to the original results by using the reset button.
   * *Authors*--here you may chose to limit your search to include or exclude individual authors.  To do this choose one or more authors and the *apply* function will activate.  Here you can choose to "and", "or" or "exclude" authors from your resulting list. 
