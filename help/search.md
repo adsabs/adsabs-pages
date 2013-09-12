@@ -11,7 +11,7 @@ Preset search options that are available for you include:
   "http://adsabs.harvard.edu/abs_doc/journal.abbr.html"> bibstem list </A>
   * **Fulltext** searches within the fulltext of articles
   
-  You can string together any of the search terms to develop a query.  The default operator is AND but can be changed by specifying OR in the query.  Similarly one can exclude a term by prepending a "-" sign to it.
+  You can string together any of the search terms to develop a query.  The default operator is AND but can be changed by specifying OR in the query.  Similarly one can exclude a term by prepending a "-" sign to it. [**EXAMPLE**](examples.md#stringing-together-a-query)
   
   The **"+ options"** button allows you to  
   * specify a publication date range to search in between (if you do not know the month you may use "00".)  
