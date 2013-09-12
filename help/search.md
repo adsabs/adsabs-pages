@@ -1,4 +1,4 @@
-##**HOW TO SEARCH THE ADS**##
+#**HOW TO SEARCH THE ADS**#
 
 Our new one box search strings together queries for you.
 
