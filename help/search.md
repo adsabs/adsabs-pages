@@ -24,7 +24,7 @@ Preset search options that are available for you include:
   
 ###**STREAMLINED ADVANCED SEARCHES**###
   
-  Simply click on one of the three options below and type your query into the brackets:
+  Simply click on one of the three options below and type your query into the parentheses:
 
   * **Trending** returns the list of documents most read by all users who read recent papers on the topic being researched; these are papers currently being read by people interested in this field.
   * **Useful** returns the list of documents most cited by the most relevant papers on the topic being researched; these are papers most often cited by experts in the field.
