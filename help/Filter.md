@@ -19,11 +19,12 @@ YYYYJJJJJVVVVMPPPPA where:
 
 The fields are padded with periods (.) so that the code is always 19 characters long. The journal is left-justified within its 5 characters, and the volume and page are right-justified. New journal abbreviations should be unique, and follow existing naming conventions. As an example, the bibliographic code: 
 1992ApJ...400L...1W corresponds to the article: Astrophysical Journal Letters volume 400, page L1. 
-Clicking on a   *>*   will detail your results for that filter.
 
 ##**Limit your search**##
 
 Once you have a results list from an initial query you can use our filters to further refine your search.  Please note that your results list will change each time you apply a limit.  Each limit appears above the top of the results list and can be undone simply by clicking on the *x* in each box (or clearing all filters but chosing "Clear all."  Currently we have the following options available:
+
+Clicking on a **>** will detail your results for that filter.
 
   * *Top papers*--here you can chose to limit your search to the first xxx results (where you chose the number xxx either by typing in the number or using the scroll bar.)  Hitting apply activates this option.  You may return to the original results by using the reset button.
   * *Authors*--here you may chose to limit your search to include or exclude individual authors.  To do this choose one or more authors and the *apply* function will activate.  Here you can choose to "and", "or" or "exclude" authors from your resulting list. 
