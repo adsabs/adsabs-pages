@@ -1,4 +1,6 @@
-##Example 1##
+Examples:
+
+##Filtering within facet##
 
 Search for author: "Huchra, John" in the Astronomy database (default search).  
 Opening the author filter you will get a list that includes "Geller, M" and "Illingworth, G."  If you want the articles in which "Geller, M." is a coauthor with "Huchra, John" you would simply click on the name "Geller, M." in the list.  
