@@ -6,6 +6,4 @@
    
    *What do the [results](Filter.md) mean?
    
-   *How do I get a user account?
-   
    *How do I submit to the ADS?
