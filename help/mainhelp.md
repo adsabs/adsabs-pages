@@ -1,6 +1,6 @@
 #ADS Help Topics
 
-   *What is the ADS?
+   *What is the [ADS](ADSinfo.md)?
    
    *How do I [search](search.md)?
    
