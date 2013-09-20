@@ -27,11 +27,11 @@ The i10-index is the number of publications with at least 10 citations.
 
 ##g-index
 
-Given a set of articles ranked in decreasing order of the number of citations that they received, the g-index is the (unique) largest number such that the top g articles received (together) at least g2 citations. (see 10.1007/s11192-006-0144-7)
+Given a set of articles ranked in decreasing order of the number of citations that they received, the g-index is the (unique) largest number such that the top g articles received (together) at least g2 citations. 
 
 ##tori-index
 
-The total research impact of a scholar (tori) is calculated using the reference lists of the citing papers, where self-citations are removed. The contribution of each citing paper is then normalized by the number of remaining references in the citing papers and the number of authors in the cited paper. The tori-index is defined as the amount of work that others have devoted to his/her research, measured in research papers.
+The total research impact of a scholar (tori) is calculated using the reference lists of the citing papers, where self-citations are removed. The contribution of each citing paper is then normalized by the number of remaining references in the citing papers and the number of authors in the cited paper. The tori-index is defined as the amount of work that others have devoted to his/her research, measured in research papers. <a href="http://arxiv.org/abs/1209.2124" class="urlextern" title="http://arxiv.org/abs/1209.2124"  rel="nofollow">arXiv:1209.2124</a>
 
 ##riq-index
 
