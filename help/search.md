@@ -3,14 +3,13 @@
 Our new one box search allows for you to search for a combination of author, title, year, object and keyword searches.  To restrict the search to a particular field, simply prepend the field name to the term being searched for. Identifiers such as bibcodes, arXiv IDs and DOIs are recognized as well. 
 Example searches:
 
- * “weak lensing”
- * author:“huchra, j”
+ * "weak lensing"
+ * author:"huchra, j"
  * "dark matter" -LHC
- * title:“QSO” year:1995-2000
- * object:M31
+ * title:"QSO" year:1995-2000
  * arXiv:1012.5859
- * 10.1086/345794
- * 2003AJ….125..525J
+ * doi:10.1086/345794
+ * bibcode:2003AJ....125..525J
  
 Preset search options that are available for you include: 
   * **Author** format: lastname, firstname middleinitial
