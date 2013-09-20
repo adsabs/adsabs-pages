@@ -64,20 +64,20 @@ Currently the following metrics are provided for a list of publications (both fo
       * [Normalized paper count](metricsdefs.md#Normalized paper count)
       * Number of citing papers 
       * Total citations 
-      * Normalized citations 
+      * [Normalized citations](metricsdefs.md#Normalized citations) 
       * Average of citations 
       * Median of citations 
-      * h-index 
-      * g-index 
-      * i10-index 
-      * e-index 
+      * [h-index](metricsdefs.md#h-index) 
+      * [g-index](metricsdefs.md#g-index) 
+      * [i10-index](metricsdefs.md#i10-index) 
+      * [e-index](metricsdefs.md#e-index) 
       * [m-index](metricsdefs.md#m-index) 
-      * tori-index (float)
-      * riq-index (integer)
+      * [tori-index](metricsdefs.md#tori-index)
+      * [riq-index](metricsdefs.md#riq-index)
 
 Note that we do not remove self-citations based on author name, because of obvious author disambiguation problems. We apply a list-based removal of self-citations.
 
-###**Available links**###
+##**Available links**##
 
 Following each bibcode is a list of letters which indicate what data are available for the article.  
 
