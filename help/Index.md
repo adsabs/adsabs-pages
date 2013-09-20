@@ -2,8 +2,8 @@
 
    * What is the [ADS](/help/ADSinfo.md)?
    
-   * How do I [search](search.md)?
+   * How do I [search](/help/search.md)?
    
-   * What do the [results](Filter.md) mean?
+   * What do the [results](/help/Filter.md) mean?
    
   
