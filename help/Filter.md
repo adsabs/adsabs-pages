@@ -60,9 +60,9 @@ The *View* button allows you to visualize your results in various ways.
    * **Metrics**
 Currently the following metrics are provided for a list of publications (both for the entire list and just the refereed publications):
 
-   * Number of papers (integer)
-   * Normalized paper count (float)
-   * Number of citing papers (integer)
+      * Number of papers (integer)
+      * Normalized paper count (float)
+      * Number of citing papers (integer)
 Total citations (integer)
 Normalized citations (integer)
 Average of citations (float)
