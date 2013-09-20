@@ -5,8 +5,8 @@ Example searches:
 
  * “weak lensing”
  * author:“huchra, j”
- * “dark matter” -LHC
- * intitle:“QSO” 1995-2000
+ * "dark matter" -LHC
+ * title:“QSO” year:1995-2000
  * object:M31
  * arXiv:1012.5859
  * 10.1086/345794
