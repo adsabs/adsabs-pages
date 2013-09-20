@@ -8,7 +8,7 @@ For a list of N papers (i=1,…N), where Nauthi is the number of authors for pub
 
 ##h-index
 
-Hirsch's h-index is the largest number H such that H publications have at least H citations. It attempts to measure the productivity and impact of a researcher in a single number. Wikipedia entry
+Hirsch's h-index is the largest number H such that H publications have at least H citations. It attempts to measure the productivity and impact of a researcher in a single number. <a href="http://en.wikipedia.org/wiki/Hirsch_index" class="urlextern" title="http://en.wikipedia.org/wiki/Hirsch_index"  rel="nofollow">Wikipedia entry</a>
 
 ##m-index 
 The m-index is the h-index divided by the time (years) between the first and most recent publication.
