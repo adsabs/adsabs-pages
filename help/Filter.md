@@ -60,18 +60,18 @@ The *View* button allows you to visualize your results in various ways.
    * **Metrics**
 Currently the following metrics are provided for a list of publications (both for the entire list and just the refereed publications):
 
-      * Number of papers (integer)
-      * Normalized paper count (float)
-      * Number of citing papers (integer)
-      * Total citations (integer)
-      * Normalized citations (integer)
-      * Average of citations (float)
-      * Median of citations (float)
-      * h-index (integer)
-      * g-index (integer)
-      * i10-index (integer)
-      * e-index (float)
-      * m-index (float)
+      * Number of papers 
+      * [Normalized paper count](metricsdef.md 
+      * Number of citing papers 
+      * Total citations 
+      * Normalized citations 
+      * Average of citations 
+      * Median of citations 
+      * h-index 
+      * g-index 
+      * i10-index 
+      * e-index 
+      * m-index 
       * tori-index (float)
       * riq-index (integer)
 
