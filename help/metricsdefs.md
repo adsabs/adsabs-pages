@@ -31,10 +31,10 @@ Given a set of articles ranked in decreasing order of the number of citations th
 
 ##tori-index
 
-The total research impact of a scholar (tori) is calculated using the reference lists of the citing papers, where self-citations are removed. The contribution of each citing paper is then normalized by the number of remaining references in the citing papers and the number of authors in the cited paper. The tori-index is defined as the amount of work that others have devoted to his/her research, measured in research papers. <a href="http://arxiv.org/abs/1209.2124" class="urlextern" title="http://arxiv.org/abs/1209.2124"  rel="nofollow">arXiv:1209.2124</a>
+The total research impact of a scholar (tori) is calculated using the reference lists of the citing papers, where self-citations are removed. The contribution of each citing paper is then normalized by the number of remaining references in the citing papers and the number of authors in the cited paper. The tori-index is defined as the amount of work that others have devoted to his/her research, measured in research papers. (See <a href="http://arxiv.org/abs/1209.2124" class="urlextern" title="http://arxiv.org/abs/1209.2124"  rel="nofollow">arXiv:1209.2124</a>)
 
 ##riq-index
 
-The research impact quotient (riq) equals the square root of the tori-index, divided by the time between the first and last publication, multiplied by 1000
+The research impact quotient (riq) equals the square root of the tori-index, divided by the time between the first and last publication, multiplied by 1000  (See <a href="http://arxiv.org/abs/1209.2124" class="urlextern" title="http://arxiv.org/abs/1209.2124"  rel="nofollow">arXiv:1209.2124</a>)
 
 For both tori and riq, see arXiv:1209.2124
