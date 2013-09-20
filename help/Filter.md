@@ -47,13 +47,16 @@ Your results are ranked according to your query and filtering options that you h
 
 **export** Working with the list you can select articles and export the resulting lists in various formats (e.g. to ADS Classic, Endnote, Bibtex or AAStex)
 
-**sort**  You can also sort your results by date, by citation num or by popularity (all of these can be returned in ascending or descending order)
+**sort**  You can also sort your results by date, by citation number or by popularity (all of these can be returned in ascending or descending order)
 
 ##**Visualizing the results**##
 
 The *View* button allows you to visualize your results in various ways.
 
    * **Author Network** allows you to illustrate author networks within ADS search results.  More information about how to use the Author Network is available with the tool.   You can zoom, filter and search author info in this mode and then apply these restrictions to your results list.
+
+##**Analyze the results**##
+   * **Citation Helper** Clicking on this option gives a list of 10 results which consists of publications that cite and/or are cited by papers in the list you just submitted, but they were not in this list. The process closely resembles the network approach of establishing “friends of friends”. Assuming that the bibcodes provided are all valid, it is still possible that no results will be returned. If results are returned, they have a score associated with them. This score essentially reflects how many "friends" know these other "friends".
 
 ###**Available links**###
 
