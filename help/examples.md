@@ -12,11 +12,14 @@ If you want the articles in which both "Geller, M." and "Illingworth, G" were co
 
 You can string together any number of search terms, and by default they will be ANDed together, meaning the list of results will contain documents which match all the input search terms, e.g.
 
-author:"Huchra, John" title:redshift
+    author:"Huchra, John" title:redshift
+
 will return all papers authored by John Huchra and which contain the word "redshift" in the title. The default operator can be changed from AND to OR by simply specifying it in the query:
 
-author:"Huchra, John" OR "cfa redshift survey"
+    author:"Huchra, John" OR "cfa redshift survey"
+
 Similarly, one can exclude documents containing a particular term by prepending a "-" sign to it:
 
-author:"Huchra, John" OR "cfa redshift survey" -title:2MASS
+    author:"Huchra, John" OR "cfa redshift survey" -title:2MASS
+
 which will exclude papers containing "2MASS" in their title from the result list.
