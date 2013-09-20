@@ -61,7 +61,7 @@ The *View* button allows you to visualize your results in various ways.
 Currently the following metrics are provided for a list of publications (both for the entire list and just the refereed publications):
 
       * Number of papers 
-      * [Normalized paper count](metricsdef.md 
+      * [Normalized paper count](metricsdefs.md#Normalized paper count)
       * Number of citing papers 
       * Total citations 
       * Normalized citations 
@@ -71,7 +71,7 @@ Currently the following metrics are provided for a list of publications (both fo
       * g-index 
       * i10-index 
       * e-index 
-      * m-index 
+      * [m-index](metricsdefs.md#m-index) 
       * tori-index (float)
       * riq-index (integer)
 
