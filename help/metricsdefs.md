@@ -1,11 +1,14 @@
 ##Normalized paper count## 
 For a list of N papers (i=1,…N), where Nauthi is the number of authors for publication i, the normalized paper count is the sum over 1/Nauthi
 
-##Normalized citations## For a list of N papers (i=1,…N), where Nauthi is the number of authors for publication i and Ci the number of citations that this paper received, the normalized citation count for each article is Ci/Nauthi, and the 'normalized citations' for this list of N papers is the sum of these N numbers.
+##Normalized citations## 
+For a list of N papers (i=1,…N), where Nauthi is the number of authors for publication i and Ci the number of citations that this paper received, the normalized citation count for each article is Ci/Nauthi, and the 'normalized citations' for this list of N papers is the sum of these N numbers.
 
-##h-index## Hirsch's h-index is the largest number H such that H publications have at least H citations. It attempts to measure the productivity and impact of a researcher in a single number. Wikipedia entry
+##h-index## 
+Hirsch's h-index is the largest number H such that H publications have at least H citations. It attempts to measure the productivity and impact of a researcher in a single number. Wikipedia entry
 
-##m-index## The m-index is the h-index divided by the time (years) between the first and most recent publication.
+##m-index## 
+The m-index is the h-index divided by the time (years) between the first and most recent publication.
 
 ##e-index## 
 
