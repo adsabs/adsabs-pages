@@ -37,4 +37,3 @@ The total research impact of a scholar (tori) is calculated using the reference 
 
 The research impact quotient (riq) equals the square root of the tori-index, divided by the time between the first and last publication, multiplied by 1000  (See <a href="http://arxiv.org/abs/1209.2124" class="urlextern" title="http://arxiv.org/abs/1209.2124"  rel="nofollow">arXiv:1209.2124</a>)
 
-For both tori and riq, see arXiv:1209.2124
