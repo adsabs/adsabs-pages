@@ -15,7 +15,7 @@ The m-index is the h-index divided by the time (years) between the first and mos
 
 ##e-index 
 
-The e-index (see 10.1371/journal.pone.0005429) is calculated (using a citation-sorted list of publications) as
+The e-index (see <a href="http://dx.doi.org/10.1371/journal.pone.0005429" class="urlextern" title="http://dx.doi.org/10.1371/journal.pone.0005429"  rel="nofollow">10.1371/journal.pone.0005429</a>) is calculated (using a citation-sorted list of publications) as
 
 e2 = Σcj - h2
 
