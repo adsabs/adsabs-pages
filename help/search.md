@@ -12,13 +12,13 @@ Some example searches:
  * bibcode:2003AJ....125..525J
  
 Search fields that are available for you include: 
-  * **Author** -- format: lastname, firstname middleinitial
-  * **First Author** -- format: lastname, firstname middleinitial
-  * **Title** -- searches text within title field
-  * **Year** -- format: YYYY or range YYYY-YYYY
-  * **Publication** -- Use journal abbreviations from our <A HREF=
+ * **Author** -- format: lastname, firstname middleinitial
+ * **First Author** -- format: lastname, firstname middleinitial
+ * **Title** -- searches text within title field
+ * **Year** -- format: YYYY or range YYYY-YYYY
+ * **Publication** -- Use journal abbreviations from our <A HREF=
   "http://adsabs.harvard.edu/abs_doc/journal_abbr.html"> bibstem list </A>
-  * **Fulltext** -- searches within the fulltext of articles
+ * **Fulltext** -- searches within the fulltext of articles
   
 You can string together any of the search terms to develop a query.  The default operator is AND but can be changed by specifying OR in the query.  Similarly one can exclude a term by prepending a "-" sign to it. [**EXAMPLE**](examples.md#stringing-together-a-query)
   
