@@ -27,7 +27,7 @@ Once you have a results list from an initial query you can use our filters to fu
 Clicking on a **>** will detail your results for that filter.
 
 Clicking on any of the listed terms within a filter will automatically apply that result as a filter; if you want to choose more than one term within a specific filter you must first check the boxes next to the terms you want to choose and then choose the desired application ( **and**, **or** or **exclude**) from the **apply** box in that section.
-[**EXAMPLE**](examples.md#filtering-within-facet)
+[**EXAMPLE**](examples#filtering-within-facet)
 
   * *Top papers*--here you can chose to limit your search to the first xxx results (where you chose the number xxx either by typing in the number or using the scroll bar.)  Hitting apply activates this option.  You may return to the original results by using the reset button.
   * *Authors*--here you may chose to limit your search to include or exclude individual authors.  To do this choose one or more authors and the *apply* function will activate.  Here you can choose to "and", "or" or "exclude" authors from your resulting list. 
@@ -61,19 +61,19 @@ The *View* button allows you to visualize your results in various ways.
 Currently the following metrics are provided for a list of publications (both for the entire list and just the refereed publications):
 
       * Number of papers 
-      * [Normalized paper count](metricsdefs.md#Normalized paper count)
+      * [Normalized paper count](metricsdefs#Normalized paper count)
       * Number of citing papers 
       * Total citations 
-      * [Normalized citations](metricsdefs.md#Normalized citations) 
+      * [Normalized citations](metricsdefs#Normalized citations) 
       * Average of citations 
       * Median of citations 
-      * [h-index](metricsdefs.md#h-index) 
-      * [g-index](metricsdefs.md#g-index) 
-      * [i10-index](metricsdefs.md#i10-index) 
-      * [e-index](metricsdefs.md#e-index) 
-      * [m-index](metricsdefs.md#m-index) 
-      * [tori-index](metricsdefs.md#tori-index)
-      * [riq-index](metricsdefs.md#riq-index)
+      * [h-index](metricsdefs#h-index) 
+      * [g-index](metricsdefs#g-index) 
+      * [i10-index](metricsdefs#i10-index) 
+      * [e-index](metricsdefs#e-index) 
+      * [m-index](metricsdefs#m-index) 
+      * [tori-index](metricsdefs#tori-index)
+      * [riq-index](metricsdefs#riq-index)
 
 Note that we do not remove self-citations based on author name, because of obvious author disambiguation problems. We apply a list-based removal of self-citations.
 
