@@ -1,10 +1,10 @@
 ##Normalized paper count
 
-For a list of N papers (i=1,…N), where Nauthi is the number of authors for publication i, the normalized paper count is the sum over 1/Nauthi
+For a list of N papers (i=1,...N), where Nauthi is the number of authors for publication i, the normalized paper count is the sum over 1/Nauthi
 
 ##Normalized citations
 
-For a list of N papers (i=1,…N), where Nauthi is the number of authors for publication i and Ci the number of citations that this paper received, the normalized citation count for each article is Ci/Nauthi, and the 'normalized citations' for this list of N papers is the sum of these N numbers.
+For a list of N papers (i=1,...N), where Nauthi is the number of authors for publication i and Ci the number of citations that this paper received, the normalized citation count for each article is Ci/Nauthi, and the 'normalized citations' for this list of N papers is the sum of these N numbers.
 
 ##h-index
 
