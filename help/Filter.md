@@ -56,9 +56,11 @@ The *View* button allows you to visualize your results in various ways.
    * **Author Network** allows you to illustrate author networks within ADS search results.  More information about how to use the Author Network is available with the tool.   You can zoom, filter and search author info in this mode and then apply these restrictions to your results list.
    * **Objects skymap** allows you to select objects or areas on a Skymap and to then use this information to filter your results list.  More information about how to use the Object Skymap is available with the tool.  You can choose a coordinate system (J2000 or Galactic), which layer(s) you would like to see and which object(s) or area you would like to include in your results.  
    * **Word Cloud** shows you a diagram which includes interesting terms from your ADS search results.  You can use these words to filter your results.  More information about how to use the word cloud is available with the tool.  
+
 ##**Analyze the results**##
    * **Citation Helper** Clicking on this option gives a list of 10 results which consists of publications that cite and/or are cited by papers in the list you just submitted, but they were not in this list. The process closely resembles the network approach of establishing "friends of friends". Assuming that the bibcodes provided are all valid, it is still possible that no results will be returned. If results are returned, they have a score associated with them. This score essentially reflects how many "friends" know these other "friends".
    * **Metrics**
+
 Currently the following metrics are provided for a list of publications (both for the entire list and just the refereed publications):
 
       * Number of papers 
