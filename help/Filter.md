@@ -63,20 +63,20 @@ The *View* button allows you to visualize your results in various ways.
 
 Currently the following metrics are provided for a list of publications (both for the entire list and just the refereed publications):
 
-      * Number of papers 
-      * [Normalized paper count](metricsdefs#Normalized paper count)
-      * Number of citing papers 
-      * Total citations 
-      * [Normalized citations](metricsdefs#Normalized citations) 
-      * Average of citations 
-      * Median of citations 
-      * [h-index](metricsdefs#h-index) 
-      * [g-index](metricsdefs#g-index) 
-      * [i10-index](metricsdefs#i10-index) 
-      * [e-index](metricsdefs#e-index) 
-      * [m-index](metricsdefs#m-index) 
-      * [tori-index](metricsdefs#tori-index)
-      * [riq-index](metricsdefs#riq-index)
+   * Number of papers 
+   * [Normalized paper count](metricsdefs#Normalized paper count)
+   * Number of citing papers 
+   * Total citations 
+   * [Normalized citations](metricsdefs#Normalized citations) 
+   * Average of citations 
+   * Median of citations 
+   * [h-index](metricsdefs#h-index) 
+   * [g-index](metricsdefs#g-index) 
+   * [i10-index](metricsdefs#i10-index) 
+   * [e-index](metricsdefs#e-index) 
+   * [m-index](metricsdefs#m-index) 
+   * [tori-index](metricsdefs#tori-index)
+   * [riq-index](metricsdefs#riq-index)
 
 Note that we do not remove self-citations based on author name, because of obvious author disambiguation problems. We apply a list-based removal of self-citations.
 
