@@ -14,6 +14,7 @@ Some example searches:
 Unfielded searches may give more results than one would like since one would be searching the whole body of ADS records.  A fielded query will result in a better result list.  
 
 Search fields that are available for you include: 
+
  * **Author** -- format: lastname, firstname middleinitial
  * **First Author** -- format: lastname, firstname middleinitial
  * **Title** -- searches text within title field
@@ -25,6 +26,7 @@ Search fields that are available for you include:
 You can string together any of the search terms to develop a query.  The default operator is AND but can be changed by specifying OR in the query.  Similarly one can exclude a term by prepending a "-" sign to it. [**EXAMPLE**](examples.md#stringing-together-a-query)
 
 In addition to the displayed search fields you may also use the following options to limit your search within the specified field(s).  Please note that with exception of the bibcode not all fields will be populated for all records.
+
  * **bibcode**: a 19 character identifier which describes the item record within the ADS (see <A HREF="http://adsabs.harvard.edu/abs_doc/help_pages/data.html#bibcodes">bibcodes </A> for further details)
  * **aff**: searches within the affiliation field 
  * **keyword**: searches keywords which were supplied by publishers or authors 
