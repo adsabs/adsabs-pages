@@ -23,3 +23,10 @@ Similarly, one can exclude documents containing a particular term by prepending 
     author:"Huchra, John" OR "cfa redshift survey" -title:2MASS
 
 which will exclude papers containing "2MASS" in their title from the result list.
+
+##Property strings##
+
+One can string together different fields to get a list of results that match a set of defined properties.  
+
+        author: "Huchra, John" property:openaccess property:refereed
+returns a list of refereed open-access papers written by John Huchra.
