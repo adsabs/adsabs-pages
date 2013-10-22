@@ -21,8 +21,17 @@ Search fields that are available for you include:
  * **Fulltext** -- searches within the fulltext of articles
   
 You can string together any of the search terms to develop a query.  The default operator is AND but can be changed by specifying OR in the query.  Similarly one can exclude a term by prepending a "-" sign to it. [**EXAMPLE**](examples.md#stringing-together-a-query)
+
+In addition to the displayed search fields you may also use the following options to limit your search within the specified field(s).  Please note that with exception of the bibcode not all fields will be populated for all records.
+ * **bibcode**  a 19 character identifier which describes the item record within the ADS (see <A HREF="http://adsabs.harvard.edu/abs_doc/help_pages/data.html#bibcodes>bibcodes </A> for further details)
+ * **aff** searches within the affiliation field 
+ * **keyword** searches keywords which were supplied by publishers or authors 
+ * **DOIs** digital object identifiers
+ * **arXiv id** (see <A HREF="http://arxiv.org/help/arxiv_identifier">arXiv identifier</A> for further information)
+ * **abstract** to search within the abstract of records
+ * **properties** ARTICLE, REFEREED, NOT_REFEREED, INPROCEEDINGS, OPENACCESS, NONARTICLE, EPRINT, BOOK, PROCEEDINGS, CATALOG, SOFTWARE
   
-  The **"+ options"** button allows you to  
+The **"+ options"** button allows you to  
   * specify a publication date range to search in between (if you do not know the month you may use "00".)  
   * select a database:  astronomy, physics, general or all
   * disable fulltext (searches only article metadata and not the entire article)
