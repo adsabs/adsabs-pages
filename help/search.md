@@ -31,7 +31,7 @@ In addition to the displayed search fields you may also use the following option
  * **DOIs**: digital object identifiers
  * **arXiv id**: see <A HREF="http://arxiv.org/help/arxiv_identifier">arXiv identifier</A> for further information
  * **abstract**: to search within the abstract of records
- * **properties**: are specific attributes of a record that can be searched.  Available properties are:  article, refereed, not_refereed, inproceedings, openaccess, nonarticle, eprint, book, proceedings, catalog, software.  The syntax for this search is property:(e.g. property:book or property:refereed)
+ * **properties**: are specific attributes of a record that can be searched.  Available properties are:  article, refereed, not_refereed, inproceedings, openaccess, nonarticle, eprint, book, proceedings, catalog, software.  The syntax for this search is property:property (e.g. property:book or property:refereed) [**EXAMPLE**](examples.md#property-strings)
 
 The **"+ options"** button allows you to  
   * specify a publication date range to search in between (if you do not know the month you may use "00".)  
