@@ -13,17 +13,9 @@ Hirsch's h-index is the largest number H such that H publications have at least 
 ##m-index 
 The m-index is the h-index divided by the time (years) between the first and most recent publication.
 
-##e-index 
+##iN-index (where N is 10 or 100)
 
-The e-index (see <a href="http://dx.doi.org/10.1371/journal.pone.0005429" class="urlextern" title="http://dx.doi.org/10.1371/journal.pone.0005429"  rel="nofollow">10.1371/journal.pone.0005429</a>) is calculated (using a citation-sorted list of publications) as
-
-e2 = Σcj - h2
-
-where cj is the number of citations received by paper j, and it represents the ignored excess citations. The sum runs from 1 to h It is not a replacement for h, but to be used in conjunction with h. In other words, for a citation-ordered list of publications, the square of e equals the sum of citations up to the publication with rank h.
-
-##i10-index
-
-The i10-index is the number of publications with at least 10 citations.
+The iN-index is the number of publications with at least N citations.
 
 ##g-index
 
@@ -36,4 +28,8 @@ The total research impact of a scholar (tori) is calculated using the reference 
 ##riq-index
 
 The research impact quotient (riq) equals the square root of the tori-index, divided by the time between the first and last publication, multiplied by 1000  (See <a href="http://arxiv.org/abs/1209.2124" class="urlextern" title="http://arxiv.org/abs/1209.2124"  rel="nofollow">arXiv:1209.2124</a>)
+
+##read10-index
+
+Read10 is the current readership rate for all an individual's papers published in the most recent ten years, normalized for number of authors (See: <a href="http://labs.adsabs.harvard.edu/adsabs/abs/2005JASIS..56..111K/" class="urlextern" title="The Bibliometric Properties of Article Readership Information" ref="nofollow">Kurtz et al. (2005), The Journal of the American Society for Information Science and Technology, Vol. 56, p. 111</a>)
 
