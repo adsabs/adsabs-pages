@@ -39,6 +39,7 @@ In addition to the displayed search fields you may also use the following option
  * **topn**: allows you to limit your results to the topn (n=number) returned
  * **citations**:  allows one to search for the citations of topics, authors, bibcode. Syntax for this is:  citations(bibcode:1999RvMPS..71..180H)[**EXAMPLE**](examples.md#citation-strings)
  * **references**: allows one to search for the references in topics, authors, bibcode.  Syntax for this type of search is: references("black holes") [**EXAMPLE**](examples.md#reference-strings)
+
 The **"+ options"** button allows you to  
   * specify a publication date range to search in between (if you do not know the month you may use "00".)  
   * disable fulltext (searches only article metadata and not the entire article)
