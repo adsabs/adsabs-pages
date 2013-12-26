@@ -37,6 +37,8 @@ To find citations about "black holes" that appeared in the Astrophysical Journal
 
         citations("black holes")bibstem:ApJ year:2000-2013
         
+##Reference-strings##
+        
 To find references to books in the article 1999RvMPS..71..180H:
 
         references(bibcode:1999RvMPS..71..180H) property:book
