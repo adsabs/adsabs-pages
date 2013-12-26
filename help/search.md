@@ -37,8 +37,8 @@ In addition to the displayed search fields you may also use the following option
  * **pos**: allows you to search for an item within a list result by specifying the position in the list e.g. pos(author:"Oort, J",2)
  * **classic_relevance (or cr)**:  allows you to search ADS2.0 with the default ranking paramters of ADS classic
  * **topn**: allows you to limit your results to the topn (n=number) returned
- * **citations**:  allows one to search for the citations of topics, authors, bibcode.  Syntax for this type of search is citations(bibcode:1999RvMPS..71..180H)[**EXAMPLE**](examples.md#citation-strings)
- * **references**: allows one to search for the references in topics, authors, bibcode.  Syntax for this type of search is references("black holes") [**EXAMPLE**](examples.md#reference-strings)
+ * **citations**:  allows one to search for the citations of topics, authors, bibcode.  Syntax for this type of search is: citations(bibcode:1999RvMPS..71..180H)[**EXAMPLE**](examples.md#citation-strings)
+ * **references**: allows one to search for the references in topics, authors, bibcode.  Syntax for this type of search is: references("black holes") [**EXAMPLE**](examples.md#reference-strings)
 
 The **"+ options"** button allows you to  
   * specify a publication date range to search in between (if you do not know the month you may use "00".)  
