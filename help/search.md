@@ -34,6 +34,11 @@ In addition to the displayed search fields you may also use the following option
  * **arXiv id**: see <A HREF="http://arxiv.org/help/arxiv_identifier">arXiv identifier</A> for further information
  * **abstract**: to search within the abstract of records
  * **properties**: are specific attributes of a record that can be searched.  Available properties are:  article, refereed, not_refereed, inproceedings, openaccess, nonarticle, eprint, book, proceedings, catalog, software.  The syntax for this search is property:property (e.g. property:book or property:refereed) [**EXAMPLE**](examples.md#property-strings)
+ * **pos(ition)**: allows you to search for an author within a list by specifying the position in the list e.g.  pos (3)
+ * **classic_relevance (or cr)**:  allows you to search ADS2.0 with the default ranking paramters of ADS classic
+ * **topn**: allows you to limit your results to the topn (n=number) returned
+ * **citations**:  allows one to search for the citations of 
+ * **references**: allows one to search for the references in
 
 The **"+ options"** button allows you to  
   * specify a publication date range to search in between (if you do not know the month you may use "00".)  
