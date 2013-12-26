@@ -30,3 +30,13 @@ One can string together different fields to get a list of results that match a s
 
         author: "Huchra, John" property:openaccess property:refereed
 returns a list of refereed open-access papers written by John Huchra.
+
+##Citation-strings##
+
+To find citations about "black holes" that appeared in the Astrophysical Journal between 2000 and 2013:
+
+        citations("black holes")bibstem:ApJ year:2000-2013
+        
+To find references to books in the article 1999RvMPS..71..180H:
+
+        references(bibcode:1999RvMPS..71..180H) property:book
