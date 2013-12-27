@@ -104,6 +104,7 @@ Clicking on the bibcode of an individual article will bring you to a page showin
    * References in the article
    * Citations to the article
    * Co-Reads of the article (papers that have been read by people who read this article)
+   * Similar articles
 
  In addition you will find links to Full Text Sources (Open Access resources are indicated by an open lock) and Data Products.   Also shown will be a list of Suggested Articles which are suggested based upon the information for the chosen article.  We also provide links to ADS private libraries, Twitter, Facebook, LinkedIn and Mendeley.
 
