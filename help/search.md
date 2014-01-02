@@ -44,9 +44,8 @@ The **"+ options"** button allows you to
   * specify a publication date range to search in between (if you do not know the month you may use "00".)  
   * disable fulltext (searches only article metadata and not the entire article)
   * select articles only (this excludes documents like observing proposals, catalog descriptions, meeting abstracts and communications)
-
-  
-The **search settings** option allows you to select how many results to display on one page (20 is the default; 200 is the maximum)
+  * specify which databases to be searched.  The default is set to search both the astronomy and physics databases but you can specify to search only the astronomy database or to search only the physics database or to search all databases (by selecting all you will include articles which have not been categorized as physics or astronomy, e.g. arXiv preprints in computer science or general science articles in journals.)  
+  * specify how many results to display on one page (20 is the default; 3000 is the maximum.)
   
 ##Advanced Searches##
 
