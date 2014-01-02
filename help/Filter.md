@@ -54,7 +54,7 @@ Your results are ranked according to your query and filtering options that you h
    * **Citation Helper** Clicking on this option gives a list of 10 results which consists of publications that cite and/or are cited by papers in the list you just submitted, but they were not in this list. The process closely resembles the network approach of establishing "friends of friends". Assuming that the bibcodes provided are all valid, it is still possible that no results will be returned. If results are returned, they have a score associated with them. This score essentially reflects how many "friends" know these other "friends".
    * **Metrics**
 
-Currently the following metrics are provided for a list of publications (both for the entire list and just the refereed publications):
+Currently the following metrics are provided for a list of publications.  If you select records from your search results, the metrics will be displayed for the selected articles.  If you do not select any records a dialog box will appear and you may select all of your results (to a maximum of 3000) or adjust the number of papers to be analyzed by using the slide bar (choosing a number (n) on the slide bar will return the metrics for the first n papers in your current result list.)  
 
    * Number of papers 
    * [Normalized paper count](metricsdefs#Normalized paper count)
@@ -112,6 +112,9 @@ Clicking on the bibcode of an individual article will bring you to a page showin
    * Citations to the article
    * Co-Reads of the article (papers that have been read by people who read this article)
    * Similar articles
+   * Table of contents (if the article is part of a collection (e.g. a book or conference proceeding), you can see the entire table of contents for the collection.)  
+
+You can also generate the metrics for the individual article by selecting metrics from the Analyze list.
 
  In addition you will find links to Full Text Sources (Open Access resources are indicated by an open lock) and Data Products.   Also shown will be a list of Suggested Articles which are suggested based upon the information for the chosen article.  We also provide links to ADS private libraries, Twitter, Facebook, LinkedIn and Mendeley.
 
