@@ -82,7 +82,7 @@ The *View* button allows you to visualize your results in various ways.
    * **Word Cloud** shows you a diagram which includes interesting terms from your ADS search results.  You can use these words to filter your results.  More information about how to use the word cloud is available with the tool.  
 
 ##**Export**##
-Use this button to export your search resutls in different formats.  Currently available options are ADS Classic, BibTeX, AASTeX and Endnote.
+Use this button to export your search results in different formats.  Currently available options are ADS Classic, BibTeX, AASTeX and Endnote.
 
 ##**Sort**##
 Use this button to resort your query results.  You can sort by date, by citations and by popularity and each of these can be sorted in ascending or descending order.  When a sorting option is selected, a button which allows you to undo the sort is visible.  
