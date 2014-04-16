@@ -44,8 +44,17 @@ DOI          | doi:DOI                     | doi:10.1086/345794      | finds a s
 Affiliation  | aff:"phrase"                | aff:"harvard"           | search for word or phrase in affiliation field |
 Title        | title:"phrase"              | title:"weak lensing"    | search for word or phrase in title field   |
 Keywords     | keyword:"phrase"            | keyword:sun             | search publisher- or author-supplied keywords |
-Database     | database:DB                 | database:astronomy      | limit search to either astronomy or physics |Properties   | property:type               | property:openaccess     | limit search to article with specific attributes (see below) |
+Database     | database:DB                 | database:astronomy      | limit search to either astronomy or physics | Properties   | property:type               | property:openaccess     | limit search to article with specific attributes (see below) |
 
+The "properties" search field allows one to restrict the search results to papers which possess a particular property.  The allowed properties currently include:
+
+Property flag  | Selection                |
+-------------- | ------------------------ |
+refereed       | refereed papers only     |
+eprint         | arXiv eprints            |
+catalog        | astronomical catalogs (e.g. Vizier)          |
+openaccess     | open access records      |
+software       | ASCL software packages   |
 
 
  * **properties**: are specific attributes of a record that can be searched.  Available properties are:  article, refereed, not_refereed, inproceedings, openaccess, nonarticle, eprint, book, proceedings, catalog, software.  The syntax for this search is property:property (e.g. property:book or property:refereed) [**EXAMPLE**](examples.md#property-strings)
