@@ -1,4 +1,4 @@
-## ABOUT THE ADS
+## About the ADS
 
 The SAO/NASA Astrophysics Data System (ADS) is a Digital Library portal for researchers in Astronomy and Physics, operated by the Smithsonian Astrophysical Observatory (SAO) under a NASA grant.
 
