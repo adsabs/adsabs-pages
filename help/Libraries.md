@@ -42,6 +42,7 @@ That's it! your library is populated and shared with the rest of the world.
 ###Dealing with Ambiguity###
 
 Generating the exact list of your papers is not always simple if you happen to have a common name.  Therefore the creation of your bibliography may require additional work on your part in selecting the list of papers which should be included in it.  To illustrate this case, let's assume you are Michael J. Kurtz and want to create the list of all papers you have published.
+
  1. Go to the [ADS 2.0 search page](http://labs.adsabs.harvard.edu/adsabs), and log in by clicking on the "Log in/Sign up" link on the top-right corner of the window.  Once logged in, you will see your name displayed in this position.
  2. Click on the "Search" tab, enter your search string, in this case _author:"Kurtz, Michael"_, click on "Search" and find a [list of 303 results](http://labs.adsabs.harvard.edu/adsabs/search/?q=+author%3A%22kurtz%2C+michael%22&month_from=&year_from=&month_to=&year_to=&db_f=%28astronomy+OR+physics%29) (as of March 2014).
  3. Under the "Authors" filter section on the left bar, you will see that there is an entry for "Kurtz, M".  If you open the entry by clicking on the ">" sign you will see all the ways in which Michael Kurtz's name might have appeared in the list of selected papers.  Some of the name variations found here clearly refer to you (e.g. "Kurtz, Michael J"), others refer to authors other than you (e.g. "Kurtz, M D"), and others are ambiguous (e.g. "Kurtz, M").
