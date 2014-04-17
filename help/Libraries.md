@@ -29,7 +29,7 @@ One common use case for the ADS library system is the creation and maintenance o
 
 ###Example###
 
-The steps involved in creating a bibliography are quite simple: find your papers, export them to the ADS library system, then make this library publicly accessible.  Here is a simple example illustrating the steps required to create Alberto Accomazzi's bibliography using ADS and then sharing its contents with other people:
+The steps involved in creating a bibliography are quite simple: find your papers, export them to the ADS library system, then make this library publicly accessible.  Before you get started, make sure you have logged into the ADS with your username and password as described above.  Here is a simple example illustrating the steps required to create Alberto Accomazzi's bibliography using ADS and then sharing its contents with other people:
 
  1. Go to the [ADS 2.0 search page](http://labs.adsabs.harvard.edu/adsabs), and find Alberto's paper using the search _author:"Accomazzi, Alberto"_.  This generates [a list of 172 papers](https://labs.adsabs.harvard.edu/adsabs/search/?q=author%3A%22Accomazzi%2C+Alberto%22&month_from=&year_from=&month_to=&year_to=&db_f=%28astronomy+OR+physics%29&nr=&bigquery=&page=1) (as of April 2014).
  2. Let's assume you know that all these papers belong to Alberto (if this is not the case see the more elaborate example below).  To create a personal library, find the "Export" menu at the top of the results list, select "in Libraries" from the pulldown menu.  In the popup screen, find the option to create a new library (which could be at the bottom of the page), enter a new name for it (e.g. "Papers by Alberto"), click on "Create New," followed by "Apply" right below it. Complete the export by clicking "Save".
