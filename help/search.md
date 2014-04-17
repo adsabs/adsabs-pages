@@ -17,8 +17,8 @@ Fielded searches can be made by prepending the search terms with the appropriate
 
 Field Name   | Search Field Syntax         | Example                 | Notes                                      |
 ------------ | --------------------------- | ----------------------- | ------------------------------------------ |
-Author       | author:"Last, F"            | author:"huchra, j"      | using author initial works fine            |
-             | author:"Last, First [...]"  | author:"huchra, john p" | stricter author search (recommended)       |
+Author       | author:"Last, F"            | author:"huchra, j"      | author name may include just lastname and initial |
+             | author:"Last, First [...]"  | author:"huchra, john p" | an example of stricter author search (recommended) |
 First Author | author:"^Last, F"           | author:"^huchra, j"     | limit the search to first-author papers    |    
 Abstract     | abs:"phrase"                | abs:"dark energy"       | search for word or phrase in abstract      |
 Year         | year:YYYY                   | year:2000               | require specific publication year          |
@@ -28,9 +28,9 @@ Fulltext     | full:"phrase"               | full:"gravitational waves" | search
 
 You can string together any of the search terms to develop a query.  By default search terms will be combined using AND as the default boolean operator, but this can be changed by explicitly specifying OR beween them.  Similarly one can exclude a term by prepending a "-" sign to it.  Multiple search words or phrases may be grouped in a fielded query by enclosing them in parenthesis.  Some examples:
 
-    abs:(QSO "dark energy")                 # _finds papers containing both "QSO" and "dark energy" in their abstract_
-    abs:(QSO OR "dark energy")              # _finds papers containing either "QSO" or "dark energy in their abstract_
-    author:"huchra, j" -title:2mass         # _finds papers by "J. Huchra" but excludes ones with "2mass" in their title_
+    abs:(QSO "dark energy")                 # finds papers containing both "QSO" and "dark energy" in their abstract
+    abs:(QSO OR "dark energy")              # finds papers containing either "QSO" or "dark energy in their abstract
+    author:"huchra, j" -title:2mass         # finds papers by "J. Huchra" but excludes ones with "2mass" in their title
     
 [See more examples.](examples.md#stringing-together-a-query)
 
@@ -53,17 +53,12 @@ Property flag  | Selection                |
 refereed       | refereed papers only     |
 eprint         | arXiv eprints            |
 catalog        | astronomical catalogs (e.g. Vizier)          |
-openaccess     | open access records      |
-software       | ASCL software packages   |
+openaccess     | there is at least one open access version of the article available   |
+software       | records for software packages (mostly from the [ASCL](http://ascl.net)) |
 
+More options for selecting properties will become available soon.
 
- * **properties**: are specific attributes of a record that can be searched.  Available properties are:  article, refereed, not_refereed, inproceedings, openaccess, nonarticle, eprint, book, proceedings, catalog, software.  The syntax for this search is property:property (e.g. property:book or property:refereed) [**EXAMPLE**](examples.md#property-strings)
- * **classic_relevance (or cr)**:  allows you to search ADS2.0 with the default ranking paramters of ADS classic
- * **topn**: allows you to limit your results to the topn (n=number) returned
- * **citations**:  allows one to search for the citations of topics, authors, bibcode. Syntax for this is:  citations(bibcode:1999RvMPS..71..180H)[**EXAMPLE**](examples.md#citation-strings)
- * **references**: allows one to search for the references in topics, authors, bibcode.  Syntax for this type of search is: references("black holes") [**EXAMPLE**](examples.md#reference-strings)
-
-The **"+ options"** button allows you to  
+The **"+ options"** button next to the search box allows you to  
   * specify a publication date range to search in between (if you do not know the month you may use "00".)  
   * disable fulltext (searches only article metadata and not the entire article)
   * select articles only (this excludes documents like observing proposals, catalog descriptions, meeting abstracts and communications)
@@ -96,21 +91,33 @@ will return a ranked list of papers spanning a variety of topics useful to resea
 
 will return a ranked list of papers featuring reviews of weak gravitational lensing and its cosmological implications. 
 
-###Citation and Reference queries###
+###Citation and Reference operators###
 
+The search engine supports two operators which generate lists of references or citations from a query.  The syntax for this operators are _references(query)_ and _citations(query)_.  Some examples will help clarify their use:
 
-###Truncation of result list###
-
-You can limit the number of results returned by your search by using the topn() operator:
-
-    topn(20,"galaxy clusters")
+    citations(author:"huchra, john")           # returns the list of papers citing John Huchra's papers
+    references(bibcode:2003AJ....125..525J)    # returns papers cited by the paper 2003AJ....125..525J
+    citations(abs:HST)                         # returns papers citing papers which have "HST" in their abstract
     
-This will limit the list of results to be the 20 most relevant papers on "galaxy clusters"
+One powerful aspect of having these operators at our disposal when creating a query is that we can combine them with additional search terms to expand or narrow your query.  For example, the following query finds all papers which cite [the original JWST paper](http://labs.adsabs.harvard.edu/adsabs/abs/2006SSRv..123..485G/) as well as papers which contain the terms "Webb" or "JWST" in their abstract:
 
+    citations(bibcode:2006SSRv..123..485G) OR abs:(Webb OR JWST)
 
 ###Positional Field Searches###
 
-One operator 
- * **pos**: allows you to search for an item within a list result by specifying the position in the list e.g. pos(author:"Oort, J",2)
+The _pos()_ operator allows you to search for an item within a field by specifying the position in the field.  The syntax for this operator is _pos(fieldedquery,position)_ For example:
 
+    pos(author:"Oort, J",2)         # returns papers which have "J. Oort" as the second author
+    pos(aff:harvard,1)              # returns papers for which the first author has a Harvard affiliation
+    pos(title:M31,1)                # returns papers for which the title start with "M31"
+    
+Currently the _pos()_ operator works on these fields: _author_, _aff_, _title_.
+
+###Truncation of result list###
+
+You can limit the number of results returned by your search by using the _topn()_ operator, which accepts the syntax _topn(N,query)_ and returns the top N papers from a list of results
+
+    topn(20,"galaxy clusters")
+    
+This will limit the list of results to be the 20 most relevant papers on "galaxy clusters."  
 
