@@ -1,9 +1,13 @@
-#ADS Help Topics
+##ADS Help Topics##
 
-   * What is the [ADS](ADSinfo.md)?
+   * Information about the [ADS project](ADSinfo.md) and the contents of its databases.
    
-   * How do I [search](search.md)?
+   * An introduction to the [search syntax](search.md) with some examples.
    
-   * What do the [results](Filter.md) mean?
+   * How search results [can be filtered](Filter.md) and modified.
    
+   * An introduction to the [ADS Libraries system](Libraries.md), and an example of how users can create on-line bibliographies in ADS.
+   
+   * Documentation about the [ADS developer API](http://github.com/adsabs/adsabs-dev-api).
+
   
