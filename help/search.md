@@ -15,16 +15,16 @@ Unfielded searches may give more results than one would like since one would be 
 
 Fielded searches can be made by prepending the search terms with the appropriate field keyword.  A list of the most common fields is displayed above the search box and clicking on each one of them will pre-generate the proper search syntax for you.  Here is the list as currently implemented:
 
-Field Name   | Search Field Syntax         | Example                 | Notes                                      |
------------- | --------------------------- | ----------------------- | ------------------------------------------ |
-Author       | author:"Last, F"            | author:"huchra, j"      | author name may include just lastname and initial |
-             | author:"Last, First [...]"  | author:"huchra, john p" | an example of stricter author search (recommended) |
-First Author | author:"^Last, F"           | author:"^huchra, j"     | limit the search to first-author papers    |    
-Abstract     | abs:"phrase"                | abs:"dark energy"       | search for word or phrase in abstract      |
-Year         | year:YYYY                   | year:2000               | require specific publication year          |
-             | year:XXXX-YYYY              | year:2000-2005          | require publication date range             |
-Publication  | bibstem:"abbrev"            | bibstem:ApJ             | limit search to a <a href="http://adsabs.harvard.edu/abs_doc/journal_abbr.html">specific publication</a> |
-Fulltext     | full:"phrase"               | full:"gravitational waves" | search for word or phrase in fulltext   |
+Field Name   | Search Field Syntax         | Example                 | Notes                                      
+------------ | --------------------------- | ----------------------- | ------------------------------------------ 
+Author       | author:"Last, F"            | author:"huchra, j"      | author name may include just lastname and initial 
+             | author:"Last, First [...]"  | author:"huchra, john p" | an example of stricter author search (recommended) 
+First Author | author:"^Last, F"           | author:"^huchra, j"     | limit the search to first-author papers    
+Abstract     | abs:"phrase"                | abs:"dark energy"       | search for word or phrase in abstract      
+Year         | year:YYYY                   | year:2000               | require specific publication year          
+             | year:XXXX-YYYY              | year:2000-2005          | require publication date range             
+Publication  | bibstem:"abbrev"            | bibstem:ApJ             | limit search to a <a href="http://adsabs.harvard.edu/abs_doc/journal_abbr.html">specific publication</a> 
+Fulltext     | full:"phrase"               | full:"gravitational waves" | search for word or phrase in fulltext   
 
 You can string together any of the search terms to develop a query.  By default search terms will be combined using AND as the default boolean operator, but this can be changed by explicitly specifying OR beween them.  Similarly one can exclude a term by prepending a "-" sign to it.  Multiple search words or phrases may be grouped in a fielded query by enclosing them in parenthesis.  Some examples:
 
@@ -36,25 +36,26 @@ You can string together any of the search terms to develop a query.  By default 
 
 In addition to the search fields listed above, you may also use the following options to limit your search.  Please note that with exception of the bibcode not all fields are necessarily populated for all records.
 
-Field Name   | Search Field Syntax         | Example                 | Notes                                      |
------------- | --------------------------- | ----------------------- | ------------------------------------------ |
-Bibcode      | bibcode:adsbib              | bibcode:2003AJ....125..525J | finds a specific record using the <A HREF="http://adsabs.harvard.edu/abs_doc/help_pages/data.html#bibcodes">ADS bibcode</A> |
+Field Name   | Search Field Syntax         | Example                 | Notes                                      
+------------ | --------------------------- | ----------------------- | ------------------------------------------
+Bibcode      | bibcode:adsbib              | bibcode:2003AJ....125..525J | finds a specific record using the <A HREF="http://adsabs.harvard.edu/abs_doc/help_pages/data.html#bibcodes">ADS bibcode</A> 
 arXiv ID     | arXiv:arxivid               | arXiv:1108.0669         | finds a specific record using its arXiv id
-DOI          | doi:DOI                     | doi:10.1086/345794      | finds a specific record using its digital object id |
-Affiliation  | aff:"phrase"                | aff:"harvard"           | search for word or phrase in affiliation field |
-Title        | title:"phrase"              | title:"weak lensing"    | search for word or phrase in title field   |
-Keywords     | keyword:"phrase"            | keyword:sun             | search publisher- or author-supplied keywords |
-Database     | database:DB                 | database:astronomy      | limit search to either astronomy or physics | Properties   | property:type               | property:openaccess     | limit search to article with specific attributes (see below) |
+DOI          | doi:DOI                     | doi:10.1086/345794      | finds a specific record using its digital object id 
+Affiliation  | aff:"phrase"                | aff:"harvard"           | search for word or phrase in affiliation field 
+Title        | title:"phrase"              | title:"weak lensing"    | search for word or phrase in title field   
+Keywords     | keyword:"phrase"            | keyword:sun             | search publisher- or author-supplied keywords 
+Database     | database:DB                 | database:astronomy      | limit search to either astronomy or physics 
+Properties   | property:type               | property:openaccess     | limit search to article with specific attributes (see below) 
 
 The "properties" search field allows one to restrict the search results to papers which possess a particular property.  The allowed properties currently include:
 
-Property flag  | Selection                |
--------------- | ------------------------ |
-refereed       | refereed papers only     |
-eprint         | arXiv eprints            |
-catalog        | astronomical catalogs (e.g. Vizier)          |
-openaccess     | there is at least one open access version of the article available   |
-software       | records for software packages (mostly from the [ASCL](http://ascl.net)) |
+Property flag  | Selection                
+-------------- | ------------------------ 
+refereed       | refereed papers only    
+eprint         | arXiv eprints            
+catalog        | astronomical catalogs (e.g. Vizier)          
+openaccess     | there is at least one open access version of the article available   
+software       | records for software packages (mostly from the [ASCL](http://ascl.net)) 
 
 More options for selecting properties will become available soon.
 
