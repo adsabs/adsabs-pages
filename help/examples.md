@@ -21,7 +21,11 @@ Similarly, one can exclude documents containing a particular term by prepending 
 
     author:"Huchra, John" OR "cfa redshift survey" -title:2MASS
 
-which will exclude papers containing "2MASS" in their title from the result list.
+which will exclude papers containing "2MASS" in their title from the result list. If you want to search for the phrase "weak lensing" in just the Letters section of the Astrophysical Journal, you should use the query:
+
+    "weak lensing" bibstem:"ApJ" page:"L*"
+
+(and if you want to exclude the Letters section, you put a NOT or a '-' in front of the 'page' modifier).
 
 ###Selecting on properties###
 
